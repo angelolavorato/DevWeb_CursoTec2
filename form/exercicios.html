@@ -11,9 +11,16 @@
       <h2>Formulário de Cadastro de Usuário</h2>
       <form action="submit-cadastro" method="post">
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" /><br>
+        <input type="text" name="nome" id="nome" /><br /><br />
 
         <label for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          required
+          placeholder="email@email.com"
+        />
       </form>
     </section>
   </body>
