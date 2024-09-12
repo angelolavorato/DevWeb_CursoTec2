@@ -298,7 +298,7 @@ Aqui está um exemplo completo de formulário para praticar:
 
 ================================================================================================
 
-# ##EXERCÍCIOS##
+# EXERCÍCIOS
 
 ### 1. Crie um Formulário de Cadastro de Usuário
 
