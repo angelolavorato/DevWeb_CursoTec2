@@ -122,3 +122,38 @@ Embora seja muito útil, o uso excessivo de `<div>`s sem necessidade, conhecido 
 A tag `<div>` é essencial para estruturar o conteúdo de uma página HTML, mas deve ser usada com moderação e sabedoria. Ela ajuda a criar layouts complexos, agrupar elementos e organizar a aplicação de estilos e scripts.
 
 Se você quiser explorar ainda mais, sugiro praticar com CSS e JavaScript para ver como a `<div>` pode ser usada para criar layouts e efeitos dinâmicos.
+
+### EXERCÍCIOS
+
+Aqui estão 5 exercícios práticos focados no uso da tag `<div>` em HTML:
+
+### 1. Crie uma Estrutura Básica de Página com Divisões
+
+- Crie uma página simples usando apenas `<div>`, dividindo-a em três seções:
+  - Cabeçalho (header)
+  - Conteúdo principal (main content)
+  - Rodapé (footer)
+
+### 2. Agrupe Textos em Seções Usando Divs
+
+- Crie uma página onde você agrupa diferentes seções de texto utilizando `<div>`. As seções devem incluir:
+  - Uma área para um título (h1)
+  - Uma área para um subtítulo (h2)
+  - Dois parágrafos de texto dentro de uma única `<div>`.
+
+### 3. Crie uma Galeria de Imagens com Divs
+
+- Crie uma galeria simples de três imagens. Cada imagem deve estar dentro de sua própria `<div>`, e cada `<div>` deve conter uma legenda em texto logo abaixo da imagem.
+
+### 4. Crie um Layout de Três Colunas
+
+- Use apenas `<div>` para criar um layout de três colunas. Cada coluna deve conter:
+  - Um título
+  - Um parágrafo
+  - Uma lista simples (ul ou ol)
+
+### 5. Divida a Página em Seções de Conteúdo e Sidebar
+
+- Crie um layout onde a página tenha duas seções principais:
+  - Uma área de conteúdo maior à esquerda
+  - Uma barra lateral à direita
