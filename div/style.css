@@ -1,0 +1,10 @@
+#header,
+#footer {
+  background-color: #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+#content {
+  margin: 20px;
+}
