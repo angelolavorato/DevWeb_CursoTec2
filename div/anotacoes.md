@@ -197,7 +197,7 @@ Sim, você pode usar uma `<div>` dentro de uma `<section>` e uma `<section>` den
 
 Ambas as abordagens são permitidas e, dependendo da necessidade de organização e semântica, podem ser combinadas para garantir uma estrutura de conteúdo clara e acessível.
 
-### Na hora de utilizar uma div eu sempre tenho que iniciar ccom <div class>?
+### Na hora de utilizar uma div eu sempre tenho que iniciar com <div class>?
 
 Não, ao usar a tag `<div>`, você **não precisa** necessariamente iniciar com o atributo `class`. O uso do atributo `class` depende da necessidade de identificar ou estilizar essa `<div>` com CSS ou interagir com ela via JavaScript. 
 
@@ -239,8 +239,6 @@ A tag `<div>` é muito versátil, e o uso de `class` depende da necessidade de i
 ### Conclusão
 
 A tag `<div>` é essencial para estruturar o conteúdo de uma página HTML, mas deve ser usada com moderação e sabedoria. Ela ajuda a criar layouts complexos, agrupar elementos e organizar a aplicação de estilos e scripts.
-
-Se você quiser explorar ainda mais, sugiro praticar com CSS e JavaScript para ver como a `<div>` pode ser usada para criar layouts e efeitos dinâmicos.
 
 ### EXERCÍCIOS
 
