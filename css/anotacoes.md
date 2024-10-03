@@ -495,4 +495,5 @@ $primary-color: blue;
 }
 ```
 
-Esses exercícios cobrem os principais tópicos de CSS e ajudam a praticar os fundamentos e conceitos avançados da linguagem.
+
+[text](https://ionic.io/)
