@@ -2,6 +2,44 @@
 
 CSS (Cascading Style Sheets) é a linguagem usada para estilizar páginas da web. Ela define a aparência visual de elementos HTML, controlando coisas como cores, layouts, tipografia e espaçamento. Para estudar CSS e dominar seu uso, é importante abordar os principais conceitos e técnicas. Aqui estão os pontos mais importantes a serem estudados, junto com uma explicação e recursos para aprofundar o conhecimento:
 
+## Comentários
+
+/*Aqui dentro vai tá tudo comentado*/
+
+## Anatomia
+
+    * Declaration
+    * Selector
+    * {} - Context
+    * Properties
+    * Property Value
+
+## Cascading
+
+Hierarquia do CSS: Ele sempre vai levar em consideração o último elemento escrito.
+
+## Especificidade
+
+    - Cada seletor tem um peso
+    - Soma dos pesos faz a declaração ser aplicada
+
+ Exemplo:
+    #id - 100
+    .class - 10
+    element - 1
+
+    html - <p id="text" class="green">
+    
+
+## Mais Específico
+
+    - style 
+    - !important
+
+## Valores e unidades de medida
+
+    São as unidades de medida em cada propriedade do elemento.
+
 ### 1. **Sintaxe Básica do CSS**
 
 - **O que é**: CSS usa regras de estilo compostas por seletores e declarações. Um seletor define o elemento HTML a ser estilizado, e as declarações contêm as propriedades e valores a serem aplicados.
