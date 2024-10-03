@@ -495,5 +495,4 @@ $primary-color: blue;
 }
 ```
 
-
 [text](https://ionic.io/)
