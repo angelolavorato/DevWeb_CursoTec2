@@ -1,4 +1,77 @@
-# TRABALHADO COM IMAGENS EM CSS
+# Estilização de Imagens
+
+### 1. **Inserção de Imagens com HTML**
+
+- **Tag `<img>`**: A principal tag para inserir imagens em um site.
+  - **Atributos importantes**:
+    - `src`: Define o caminho da imagem.
+    - `alt`: Texto alternativo que descreve a imagem (importante para acessibilidade e SEO).
+    - `width` e `height`: Controlam o tamanho da imagem.
+  - **Boas práticas**:
+    - Sempre usar o atributo `alt` para melhorar a acessibilidade.
+    - Utilizar imagens otimizadas para melhorar o desempenho do site.
+
+### 2. **Responsividade de Imagens**
+
+- **CSS Responsivo**: Como fazer as imagens se adaptarem a diferentes tamanhos de tela.
+  - **Propriedade `max-width`**: Define um limite máximo para a largura da imagem, permitindo que ela se ajuste ao tamanho do contêiner pai.
+  - **Propriedade `height: auto`**: Mantém a proporção da imagem ao redimensioná-la.
+  - **Uso de `srcset`**: Define diferentes versões da imagem para diferentes resoluções de tela (como telas Retina).
+
+### 3. **Estilização de Imagens com CSS**
+
+- **Bordas e Sombreamento**:
+  - **Propriedade `border`**: Aplicar bordas ao redor da imagem.
+  - **Propriedade `box-shadow`**: Adicionar sombras, dando profundidade à imagem.
+- **Arredondamento de Cantos**:
+  - **Propriedade `border-radius`**: Controla o arredondamento dos cantos de uma imagem, podendo criar círculos ou bordas suaves.
+
+### 4. **Imagens como Fundos**
+
+- **Propriedade `background-image`**: Define uma imagem de fundo para elementos.
+  - **Atributos adicionais**:
+    - `background-size`: Controla o tamanho da imagem de fundo (por exemplo, `cover`, `contain`).
+    - `background-position`: Define a posição da imagem no contêiner (por exemplo, `center`, `top`).
+    - `background-repeat`: Define se a imagem deve ou não se repetir (como `no-repeat`).
+
+### 5. **Sprites de Imagem**
+
+- **O que são sprites**: Utilização de uma única imagem que contém várias sub-imagens (ou ícones), exibindo apenas parte dela para otimizar a quantidade de requisições HTTP.
+  - **Técnica**: Usar `background-position` para exibir a parte correta da imagem.
+
+### 6. **SVG (Scalable Vector Graphics)**
+
+- **Imagens vetoriais**: As imagens SVG são escaláveis e leves, sendo perfeitas para logotipos e gráficos.
+  - Podem ser inseridas diretamente no HTML como código XML ou referenciadas com a tag `<img>`.
+  - Suporte para estilização com CSS, animação e interatividade via JavaScript.
+
+### 7. **Manipulação de Imagens com Filtros CSS**
+
+- **Propriedade `filter`**: Aplicar efeitos gráficos como desfoque, brilho, saturação, etc.
+  - Exemplos de filtros:
+    - `blur()`: Aplica um desfoque.
+    - `brightness()`: Ajusta o brilho.
+    - `grayscale()`: Converte a imagem para tons de cinza.
+
+### 8. **Lazy Loading de Imagens**
+
+- **O que é**: Carregar imagens apenas quando estão próximas de serem visualizadas pelo usuário, melhorando o desempenho.
+  - Atributo `loading="lazy"`: Implementação simples diretamente na tag `<img>` para ativar o carregamento preguiçoso.
+
+### 9. **Imagens Decorativas vs. Imagens Informativas**
+
+- **Imagens Decorativas**: Imagens que não adicionam conteúdo informativo e são meramente visuais. Não precisam de textos alternativos (alt vazio `alt=""`).
+- **Imagens Informativas**: Transmitem informações importantes e precisam de uma descrição no atributo `alt`.
+
+### 10. **Acessibilidade e SEO**
+
+- **Uso adequado do atributo `alt`**: Fornecer descrições significativas que ajudam os leitores de tela e também contribuem para o SEO.
+- **Imagens com link**: Assegure-se de que as imagens que são clicáveis tenham descrições adequadas no `alt` ou texto adjacente explicativo.
+
+
+## Exemplos sobre os conceitos
+
+Aqui estão exemplos práticos para cada um dos conceitos relacionados à utilização e estilização de imagens com HTML e CSS. Cada exemplo inclui um arquivo HTML e um arquivo CSS correspondente.
 
 ### 1. Inserção de Imagens com HTML
 
