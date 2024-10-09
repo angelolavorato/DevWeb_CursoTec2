@@ -1,4 +1,5 @@
-* Seletor de classe */ .paragrafo {
+/* Seletor de classe */
+.paragrafo {
   color: blue;
 } /* Seletor de tipo */
 p {
