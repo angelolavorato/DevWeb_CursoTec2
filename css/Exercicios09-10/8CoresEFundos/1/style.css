@@ -4,7 +4,7 @@
   height: 100px;
 }
 .bloco2 {
-  background: linear-gradient(15deg, red 25%, green 50%, orange 75%);
+  background: linear-gradient(12deg, red 25%, green 50%, orange 75%);
   width: 100px;
   height: 100px;
 }
@@ -12,7 +12,7 @@
   width: 100px;
   height: 100px;
   background: linear-gradient(
-    90deg,
+    18deg,
     rgba(2, 0, 36, 1) 0%,
     rgba(62, 62, 148, 1) 35%,
     rgba(0, 212, 255, 1) 100%
