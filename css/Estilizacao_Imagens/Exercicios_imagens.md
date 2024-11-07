@@ -71,6 +71,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 1: Inserção de Imagem Básica
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -89,6 +90,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 2: Imagem Responsiva
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -104,6 +106,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .imagem-responsiva {
     max-width: 100%;
@@ -116,6 +119,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 3: Estilização de Imagem com CSS
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -131,6 +135,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .imagem-estilizada {
     border: 5px solid black;
@@ -144,6 +149,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 4: Imagem como Fundo de Elemento
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -161,6 +167,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .fundo-imagem {
     background-image: url('caminho-da-imagem.jpg');
@@ -181,6 +188,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 5: Sprite de Imagem
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -196,6 +204,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .sprite {
     width: 50px;
@@ -211,6 +220,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 6: Imagem SVG em HTML
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -228,6 +238,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .svg-exemplo {
     border: 2px solid black;
@@ -239,6 +250,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 7: Filtro CSS em Imagem
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -255,6 +267,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .imagem-cinza {
     filter: grayscale(100%);
@@ -270,6 +283,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 8: Lazy Loading
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -290,6 +304,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 9: Imagem Informativa vs. Decorativa
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -305,6 +320,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ```
 
 **CSS (`styles.css`):**
+
 ```css
 .imagem-decorativa {
     width: 150px;
@@ -317,6 +333,7 @@ Aqui estão as respostas para os exercícios sobre manipulação de imagens com 
 ### Exercício 10: Acessibilidade e SEO de Imagens
 
 **HTML (`index.html`):**
+
 ```html
 <!DOCTYPE html>
 <html lang="pt-BR">
