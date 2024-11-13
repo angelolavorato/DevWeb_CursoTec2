@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício página web completa utilizando HTML e CSS</title>
+  </head>
+  <body>
+    <!--CABEÇALHO-->
+    <header>
+      <div class="logo">
+        <h1>Título da Página</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#services">Serviços</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--BANNER-->
+    <section class="banner">
+      <div class="banner-content">
+        <img
+          src="/DevWeb_CursoTec2/Exercicio_html+css/Resolucao/assets/logo.png"
+          alt=""
+        />
+        <h2>Boas Vindas</h2>
+        <p>Aqui estão todas as nossas informações</p>
+        <button>Saiba Mais</button>
+      </div>
+    </section>
+    <!--SOBRE NÓS-->
+    <section id="about" class="about">
+      <div class="about-content">
+        <img src="" alt="" />
+        <div>
+          <h2>Sobre Nós</h2>
+          <p>Somos uma empresa que faz negócios</p>
+        </div>
+      </div>
+    </section>
+    <!--SERVIÇOS-->
+    <section id="services" class="services">
+      <h2>Serviços</h2>
+      <div class="service-items">
+        <div class="service-item">
+          <img src="" alt="" />
+          <h3>Serviço 1</h3>
+          <p>Descrição do serviço</p>
+        </div>
+        <div class="service-item">
+          <img src="" alt="" />
+          <h3>Serviço 2</h3>
+          <p>Descrição do serviço</p>
+        </div>
+        <div class="service-item">
+          <img src="" alt="" />
+          <h3>Serviço 3</h3>
+          <p>Descrição do serviço</p>
+        </div>
+      </div>
+    </section>
+    <!--FORMULÁRIO DE CONTATO-->
+    <section id="contact" class="contact">
+      <h2>Contato</h2>
+      <form>
+        <label for="name">Nome:</label>
+        <input type="text" id="nome" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+    <!--RODAPÉ-->
+    <footer>
+      <p>&copy;2024; Minha página WEB. Todos os direitos reservados</p>
+    </footer>
+  </body>
+</html>
