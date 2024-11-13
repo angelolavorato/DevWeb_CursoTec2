@@ -1,4 +1,5 @@
 ### **Arquivo HTML (`index.html`)**
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -89,6 +90,7 @@
 ```
 
 ### **Arquivo CSS (`styles.css`)**
+
 ```css
 /* Reset Básico */
 * {
