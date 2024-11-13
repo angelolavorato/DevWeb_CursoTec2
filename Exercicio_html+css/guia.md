@@ -1,154 +1,140 @@
-Ótima ideia! Criar uma página web que aborde todos os conceitos é um exercício abrangente e permite revisar o conteúdo de forma prática. Vou te ajudar a criar um exemplo de página que cobre todos os tópicos mencionados. Vou dividir em duas partes:
-
-1. **HTML**: Estrutura completa da página, com uso de diferentes tags.
-2. **CSS**: Estilização detalhada, abordando todos os conceitos discutidos.
-
-### HTML - Estrutura Completa
-
-Crie um arquivo chamado `index.html` e adicione o seguinte conteúdo:
-
+### **Arquivo HTML (`index.html`)**
 ```html
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercício de HTML e CSS Completo</title>
+    <title>Exercício Completo - Página Web</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Cabeçalho da Página -->
+    <!-- Cabeçalho -->
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Logo da Empresa">
+            <h1>Minha Página Web</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Sobre</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
                 <li><a href="#services">Serviços</a></li>
                 <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção Principal -->
-    <main>
-        <!-- Banner com Imagem de Fundo -->
-        <section class="banner">
-            <div class="banner-content">
-                <h1>Bem-vindo ao Nosso Site!</h1>
-                <p>Explore todos os nossos serviços e saiba mais sobre o que oferecemos.</p>
-                <button class="cta-button">Saiba Mais</button>
-            </div>
-        </section>
+    <!-- Banner -->
+    <section class="banner">
+        <div class="banner-content">
+            <h2>Bem-vindo à Nossa Página</h2>
+            <p>Aqui você encontra todas as informações sobre nossos serviços.</p>
+            <button>Saiba Mais</button>
+        </div>
+    </section>
 
-        <!-- Seção Sobre Nós -->
-        <section id="about" class="about-section">
-            <div class="container">
+    <!-- Seção Sobre Nós -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <img src="exemplo.jpg" alt="Imagem de Exemplo">
+            <div>
                 <h2>Sobre Nós</h2>
-                <p>Somos uma empresa dedicada a oferecer soluções personalizadas para cada cliente. Nossa equipe está preparada para atender às suas necessidades.</p>
-                <img src="team.jpg" alt="Equipe da Empresa">
+                <p>Somos uma empresa dedicada a fornecer os melhores serviços para nossos clientes, sempre priorizando qualidade e excelência.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Seção de Serviços com Imagens SVG e Sprites -->
-        <section id="services" class="services-section">
-            <div class="container">
-                <h2>Nossos Serviços</h2>
-                <div class="service">
-                    <img src="service1.svg" alt="Serviço 1">
-                    <h3>Consultoria</h3>
-                    <p>Oferecemos consultoria especializada em várias áreas.</p>
-                </div>
-                <div class="service">
-                    <img src="service2.svg" alt="Serviço 2">
-                    <h3>Desenvolvimento</h3>
-                    <p>Desenvolvemos soluções tecnológicas personalizadas.</p>
-                </div>
-                <div class="service">
-                    <img src="service3.svg" alt="Serviço 3">
-                    <h3>Design</h3>
-                    <p>Criação de designs modernos e funcionais para sua empresa.</p>
-                </div>
+    <!-- Seção de Serviços -->
+    <section id="services" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-items">
+            <div class="service-item">
+                <h3>Serviço 1</h3>
+                <p>Descrição do serviço 1.</p>
             </div>
-        </section>
+            <div class="service-item">
+                <h3>Serviço 2</h3>
+                <p>Descrição do serviço 2.</p>
+            </div>
+            <div class="service-item">
+                <h3>Serviço 3</h3>
+                <p>Descrição do serviço 3.</p>
+            </div>
+        </div>
+    </section>
 
-        <!-- Formulário de Contato -->
-        <section id="contact" class="contact-section">
-            <div class="container">
-                <h2>Entre em Contato</h2>
-                <form action="#" method="post">
-                    <label for="name">Nome:</label>
-                    <input type="text" id="name" name="name" placeholder="Digite seu nome" required>
-                    
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-                    
-                    <label for="message">Mensagem:</label>
-                    <textarea id="message" name="message" placeholder="Escreva sua mensagem" required></textarea>
-                    
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </main>
+    <!-- Formulário de Contato -->
+    <section id="contact" class="contact">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
 
     <!-- Rodapé -->
     <footer>
-        <div class="container">
-            <p>&copy; 2024 - Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2024 Minha Página Web. Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
 ```
 
-### CSS - Estilização Completa
-
-Crie um arquivo chamado `styles.css` e adicione o seguinte conteúdo:
-
+### **Arquivo CSS (`styles.css`)**
 ```css
-/* Reset básico */
+/* Reset Básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
 }
 
-/* Estruturação da Página */
+/* Estilo Global */
 body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
 }
 
 /* Cabeçalho */
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem;
 }
 
-header .logo img {
-    max-width: 150px;
+header .logo h1 {
+    margin: 0;
 }
 
-header nav ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
     display: flex;
 }
 
-header nav ul li {
-    margin-right: 20px;
+nav ul li {
+    margin-left: 1.5rem;
 }
 
-header nav ul li a {
+nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
 
 /* Banner */
@@ -156,136 +142,121 @@ header nav ul li a {
     background-image: url('banner.jpg');
     background-size: cover;
     background-position: center;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
     text-align: center;
+    padding: 4rem 2rem;
 }
 
 .banner-content {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.cta-button {
-    padding: 10px 20px;
-    background-color: #ff6347;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Seção Sobre Nós */
-.about-section {
-    padding: 50px 0;
-    text-align: center;
-}
-
-.about-section .container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.about-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-/* Seção de Serviços */
-.services-section {
-    background-color: #f4f4f4;
-    padding: 50px 0;
-}
-
-.services-section .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.service {
-    text-align: center;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.service img {
-    max-width: 80px;
-    margin-bottom: 10px;
-}
-
-/* Formulário de Contato */
-.contact-section {
-    padding: 50px 0;
-}
-
-.contact-section .container {
     max-width: 600px;
     margin: 0 auto;
 }
 
-.contact-section form {
+.banner button {
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.banner button:hover {
+    background-color: #e64a19;
+}
+
+/* Sobre Nós */
+.about {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 2rem;
+}
+
+/* Serviços */
+.services {
+    background-color: #f1f1f1;
+    padding: 2rem;
+    text-align: center;
+}
+
+.service-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+}
+
+.service-item {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário de Contato */
+.contact {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
 }
 
-.contact-section label {
-    margin-top: 10px;
+.contact label {
+    margin: 0.5rem 0 0.2rem;
 }
 
-.contact-section input, 
-.contact-section textarea {
-    margin-top: 5px;
-    padding: 10px;
-    border-radius: 5px;
+.contact input,
+.contact textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
     border: 1px solid #ccc;
-    margin-bottom: 15px;
+    border-radius: 5px;
 }
 
-.contact-section button {
-    padding: 10px 20px;
+.contact button {
     background-color: #333;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
     cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact button:hover {
+    background-color: #555;
 }
 
 /* Rodapé */
 footer {
+    text-align: center;
+    padding: 1rem;
     background-color: #333;
     color: #fff;
-    text-align: center;
-    padding: 15px 0;
+}
+
+/* Manipulação de Tamanho de Imagens */
+img {
+    max-width: 100%;
+    height: auto;
 }
 ```
-
-### Explicação dos Conceitos Aplicados
-
-1. **Estruturação HTML Completa**: Utilizamos tags semânticas como `<header>`, `<nav>`, `<section>`, `<article>`, `<footer>`, além de `<div>` para estruturação. Usamos `<form>` para criar um formulário de contato.
-
-2. **Seletores CSS**: Aplicamos seletores por tag (`header`, `body`), classe (`.banner`, `.container`), e ID (não utilizado neste exemplo, mas pode ser aplicado).
-
-3. **Box Model**: Propriedades como `margin`, `padding`, `border`, `box-sizing` foram utilizadas.
-
-4. **Unidades de Medida**: Utilização de `px` (fixa) e `%` (relativa) para manipular dimensões e layout.
-
-5. **Posicionamento e Layout**: Flexbox foi usado para posicionar elementos no cabeçalho e nas seções.
-
-6. **Tipografia**: Estilização de fontes, tamanho, e cores.
-
-7. **Cores e Gradientes**: Aplicação de cores no plano de fundo e botões.
-
-8. **Manipulação de Imagens**: Controle de dimensões, bordas arredondadas, aplicação de imagens de fundo, e imagens SVG.
-
-9. **Pseudo-classes e Pseudo-elementos**: Exemplos práticos podem ser adicionados para hover (`:hover`) em botões.
-
-Este exemplo abrange todos os conceitos discutidos e oferece uma base sólida para criar uma página web completa utilizando HTML e CSS. Se precisar de mais detalhes sobre algum tópico, posso ajudar!
