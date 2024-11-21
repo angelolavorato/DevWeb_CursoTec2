@@ -359,6 +359,3 @@ img {
     object-fit: cover;
 }
 ```
-
-### **Conclusão**
-Este detalhamento no Passo 8 cobre todos os aspectos da estilização da página, garantindo que cada seção HTML receba uma aparência visual adequada utilizando técnicas modernas de CSS.
