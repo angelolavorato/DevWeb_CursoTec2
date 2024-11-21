@@ -40,13 +40,14 @@ nav ul li a {
 
 /*BANNER */
 .banner {
-  background-image: url(assets/banner.png);
+  background-image: url(assets/FOTO-POSTO.jpg);
   background-size: cover;
   background-position: center;
-  color: #0c1637;
+  color: #11181b;
   font-weight: bold;
   text-align: center;
   padding: 4rem 2rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 .banner-content {
   max-width: 600px;
@@ -60,6 +61,7 @@ nav ul li a {
   padding: 1rem 1rem;
   border-radius: 6px;
   margin-top: 1rem;
+  cursor: pointer;
 }
 
 .banner button:hover {
@@ -102,4 +104,57 @@ nav ul li a {
 .service-item img {
   max-width: 550px;
   padding: 2rem;
+}
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+/*FORMULÁRIO DE CONTATO*/
+.contact {
+  background-color: #086e5c;
+  padding: 1rem;
+}
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-bottom: 0.5rem 0 0.2rem;
+}
+.contact input,
+.contact textarea {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact button {
+  background-color: #1c9039;
+  color: #fff;
+  border: none;
+  padding: 1rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.contact button:hover {
+  background-color: #084d6e;
+}
+
+/*RODAPÉ*/
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #084d6e;
+  color: #fff;
+  font-size: 0.6rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
